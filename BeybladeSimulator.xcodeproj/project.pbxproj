@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58868343243E0112000C7DC6 /* Bayblade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58868342243E0112000C7DC6 /* Bayblade.swift */; };
+		58868345243E031E000C7DC6 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58868344243E031E000C7DC6 /* Base.swift */; };
+		58868347243E0380000C7DC6 /* Parts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58868346243E0380000C7DC6 /* Parts.swift */; };
+		5891E4F1243E075E00B6A3D3 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5891E4F0243E075E00B6A3D3 /* Driver.swift */; };
+		5891E4F3243E078900B6A3D3 /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5891E4F2243E078900B6A3D3 /* Weight.swift */; };
 		58F86F87243DFF48001BA50E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F86F86243DFF48001BA50E /* AppDelegate.swift */; };
 		58F86F89243DFF48001BA50E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F86F88243DFF48001BA50E /* SceneDelegate.swift */; };
 		58F86F8B243DFF48001BA50E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F86F8A243DFF48001BA50E /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58868342243E0112000C7DC6 /* Bayblade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayblade.swift; sourceTree = "<group>"; };
+		58868344243E031E000C7DC6 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		58868346243E0380000C7DC6 /* Parts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parts.swift; sourceTree = "<group>"; };
+		5891E4F0243E075E00B6A3D3 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		5891E4F2243E078900B6A3D3 /* Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
 		58F86F83243DFF48001BA50E /* BeybladeSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeybladeSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F86F86243DFF48001BA50E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58F86F88243DFF48001BA50E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +50,11 @@
 		58F86F7A243DFF48001BA50E = {
 			isa = PBXGroup;
 			children = (
+				58868342243E0112000C7DC6 /* Bayblade.swift */,
+				5891E4F2243E078900B6A3D3 /* Weight.swift */,
+				58868346243E0380000C7DC6 /* Parts.swift */,
+				58868344243E031E000C7DC6 /* Base.swift */,
+				5891E4F0243E075E00B6A3D3 /* Driver.swift */,
 				58F86F85243DFF48001BA50E /* BeybladeSimulator */,
 				58F86F84243DFF48001BA50E /* Products */,
 			);
@@ -139,8 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				58F86F8B243DFF48001BA50E /* ViewController.swift in Sources */,
+				5891E4F1243E075E00B6A3D3 /* Driver.swift in Sources */,
+				58868343243E0112000C7DC6 /* Bayblade.swift in Sources */,
+				58868345243E031E000C7DC6 /* Base.swift in Sources */,
 				58F86F87243DFF48001BA50E /* AppDelegate.swift in Sources */,
+				58868347243E0380000C7DC6 /* Parts.swift in Sources */,
 				58F86F89243DFF48001BA50E /* SceneDelegate.swift in Sources */,
+				5891E4F3243E078900B6A3D3 /* Weight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

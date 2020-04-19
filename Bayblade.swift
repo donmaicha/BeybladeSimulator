@@ -9,8 +9,15 @@
 import Foundation
 
 class Bayblade {
-    var base:Base = Base()
-    var weight:Weight = Weight()
-    var driver:Driver = Driver()
-
+    var base:Base? = nil
+    var weight:Weight? = nil
+    var frame:Frame? = nil
+    var driver:Driver? = nil
+    
+    init() {
+        base = Base()
+        weight = Weight()
+        frame = Frame()
+        driver = Driver()
+    }
 }

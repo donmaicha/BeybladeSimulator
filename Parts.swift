@@ -19,4 +19,11 @@ class Parts {
             self.name = value
         }
     }
+    func SelectDisk(target:[String]) {
+        let random_name:String = target.randomElement() ?? ""
+        self.Name = random_name
+    }
+    func CallName() {
+        print(self.Name)
+    }
 }

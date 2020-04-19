@@ -9,5 +9,10 @@
 import Foundation
 
 class Driver: Parts {
+    var drivers:[String] = ["アルティメットリブートダッシュ", "エクストリームダッシュ", "ゼータダッシュ", "ユナイトダッシュ", "エクシード", "リボルブ", "ハイブリッド", "トリック", "イグニッションダッシュ", "ベアリング"]
     
+    override init() {
+        super.init()
+        SelectDisk(target: drivers)
+    }
 }

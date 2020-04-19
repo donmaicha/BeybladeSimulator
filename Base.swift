@@ -9,5 +9,11 @@
 import Foundation
 
 class Base: Parts {
+    //@todo とりあえず、配列に格納されたディスクの中からランダムに抽出させる
+    var disks:[String] = ["グライド", "スーパー", "イレイズ", "インペリアル", "ユニオン", "プライムアポカリプス", "レガリアジェネシス", "コスモ"]
     
+    override init() {
+        super.init()
+        SelectDisk(target: disks)
+    }
 }

@@ -9,10 +9,12 @@
 import Foundation
 
 class Frame:Parts {
-    var frames:[String] = ["エキスパンド", "ダガー"]
+    var frames:[String] = ["エキスパンド", "ダガー", "ウォール", "バンプ"]
     
-    override init() {
-        super.init()
-        SelectDisk(target: frames)
+    override init(type: Bayblade.bladeType) {
+        super.init(type: type)
+        let frame: String = self.SelectDisk(target: frames)
+        
+        self.Name = frame
     }
 }

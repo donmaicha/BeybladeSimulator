@@ -19,10 +19,17 @@ class Parts {
             self.name = value
         }
     }
-    func SelectDisk(target:[String]) {
-        let random_name:String = target.randomElement() ?? ""
-        self.Name = random_name
+    var bladeType = Bayblade.bladeType.GT
+    
+    init(type: Bayblade.bladeType) {
+        self.bladeType = type
     }
+    
+    func SelectDisk(target:[String]) -> String {
+        let random_name:String = target.randomElement() ?? ""
+        return random_name
+    }
+    
     func CallName() {
         print(self.Name)
     }

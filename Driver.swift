@@ -9,10 +9,14 @@
 import Foundation
 
 class Driver: Parts {
-    var drivers:[String] = ["アルティメットリブートダッシュ", "エクストリームダッシュ", "ゼータダッシュ", "ユナイトダッシュ", "エクシード", "リボルブ", "ハイブリッド", "トリック", "イグニッションダッシュ", "ベアリング"]
+    var drivers:[String] = [
+        "Ul'", "X'", "Zt'", "U'", "Xc", "R", "Hy", "Tr", "Ig'", "Br", "Dm'", "P", "Zn", "Ev'", "Om", "Ω", "Qc'", "Mr'",
+        "Kp'", "S", "Un"
+    ]
     
-    override init() {
-        super.init()
-        SelectDisk(target: drivers)
+    override init(type: Bayblade.bladeType) {
+        super.init(type: type)
+        let driver: String = self.SelectDisk(target: drivers)
+        self.Name = driver
     }
 }

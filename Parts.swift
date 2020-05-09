@@ -19,7 +19,17 @@ class Parts {
             self.name = value
         }
     }
-    var bladeType = Bayblade.bladeType.GT
+    // 種別
+    var bladeType:Bayblade.bladeType = Bayblade.bladeType.GT
+    // 所持しているかどうか
+    var has: Bool = false
+    // 回転種別
+    var rotationType:enumRotation = enumRotation.RIGHT
+    enum enumRotation:Int {
+        case RIGHT
+        case LEFT
+        case BOTH
+    }
     
     init(type: Bayblade.bladeType) {
         self.bladeType = type

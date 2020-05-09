@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5822DD9A246595CC002A1BA7 /* Chip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5822DD99246595CC002A1BA7 /* Chip.swift */; };
 		58868343243E0112000C7DC6 /* Bayblade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58868342243E0112000C7DC6 /* Bayblade.swift */; };
 		58868345243E031E000C7DC6 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58868344243E031E000C7DC6 /* Base.swift */; };
 		58868347243E0380000C7DC6 /* Parts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58868346243E0380000C7DC6 /* Parts.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5822DD99246595CC002A1BA7 /* Chip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip.swift; sourceTree = "<group>"; };
 		58868342243E0112000C7DC6 /* Bayblade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayblade.swift; sourceTree = "<group>"; };
 		58868344243E031E000C7DC6 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		58868346243E0380000C7DC6 /* Parts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parts.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				58868342243E0112000C7DC6 /* Bayblade.swift */,
 				5891E4F2243E078900B6A3D3 /* Disk.swift */,
 				58868346243E0380000C7DC6 /* Parts.swift */,
+				5822DD99246595CC002A1BA7 /* Chip.swift */,
 				58868344243E031E000C7DC6 /* Base.swift */,
 				5891E4F0243E075E00B6A3D3 /* Driver.swift */,
 				58F86F85243DFF48001BA50E /* BeybladeSimulator */,
@@ -159,6 +162,7 @@
 				5891E4F5244C89F800B6A3D3 /* Frame.swift in Sources */,
 				58F86F8B243DFF48001BA50E /* ViewController.swift in Sources */,
 				5891E4F1243E075E00B6A3D3 /* Driver.swift in Sources */,
+				5822DD9A246595CC002A1BA7 /* Chip.swift in Sources */,
 				58868343243E0112000C7DC6 /* Bayblade.swift in Sources */,
 				58868345243E031E000C7DC6 /* Base.swift in Sources */,
 				58F86F87243DFF48001BA50E /* AppDelegate.swift in Sources */,

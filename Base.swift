@@ -71,16 +71,16 @@ class Base: Parts {
         switch type {
         case Bayblade.bladeType.GT:
             if (isRightRotation) {
-                let index: Int = Int.random(in: 1 ... gtChip.count)
+                let index: Int = Int.random(in: 0 ... gtChip.count - 1)
                 baseName = (gtChip[index].hasBase) ? self.SelectDisk(target: gtDisk_right) : ""
                 baseName += gtChip[index].Name
                 baseName += (gtChip[index].hasWeight) ? self.SelectDisk(target: gtWeught) : ""
             }
             else
             {
-                let index: Int = Int.random(in: 1 ... gtChip.count)
+                let index: Int = Int.random(in: 0 ... gtChip.count - 1)
                 baseName = (gtChip[index].hasBase) ? self.SelectDisk(target: gtDisk_left) : ""
-                baseName += (gtChip[index].hasBase) ? gtChip[index].Name : ""
+                baseName += gtChip[index].Name
                 baseName += (gtChip[index].hasWeight) ? self.SelectDisk(target: gtWeught) : ""
             }
             break

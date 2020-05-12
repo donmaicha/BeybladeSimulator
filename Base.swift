@@ -24,13 +24,7 @@ class Base: Parts {
         GtChip(name: "レガリアジェネシス", type: Bayblade.bladeType.GT, rotateType: Parts.enumRotation.RIGHT, needsWeight: false, needsBase: false),
         GtChip(name: "プライムアポカリプス", type: Bayblade.bladeType.GT, rotateType: Parts.enumRotation.RIGHT, needsWeight: false, needsBase: false),
     ]
-    
-    let gtCip_right:[String] = [
-        "ディアボロス(ウェイト一体)", "ドラゴン(新)", "ドラゴン(旧)", "スプリガン"
-    ]
-    let gtCip_left:[String] = [
-        "ディアボロス(ウェイト一体)", "スプリガン", "ファブニル", "バハムート"
-    ]
+
     let gtWeught:[String] = [
         "滅", "天", "幻", "斬"
     ]
@@ -98,7 +92,7 @@ class Base: Parts {
             }
             break
         case Bayblade.bladeType.LEGEND:
-            baseName = self.SelectDisk(target: gtDisk_left)
+            baseName = legendDisk.randomElement()!
             break
         }
         

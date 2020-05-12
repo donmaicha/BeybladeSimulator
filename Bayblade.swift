@@ -37,7 +37,7 @@ class Bayblade {
     func selectBladeType() -> bladeType {
         var ret = bladeType.GT
         
-        let randomInt = Int.random(in: 0..<2)
+        let randomInt = Int.random(in: 0...2)
          
          switch randomInt {
          case 0:

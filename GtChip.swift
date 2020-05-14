@@ -9,14 +9,15 @@
 import Foundation
 
 class GtChip: Chip {
-    // ウエイト有無
-    var hasWeight: Bool = true
-    var hasBase: Bool = true
+    // ウエイト一体型かどうか
+    var containsWeight: Bool = true
+    // ベース一体型かどうか
+    var containsBase: Bool = true
     
     init(name: String, type: Bayblade.bladeType, rotateType: Parts.enumRotation = Parts.enumRotation.RIGHT, needsWeight: Bool = true, needsBase: Bool = true) {
         super.init(name: name, type: type, rotateType: rotateType)
-        hasWeight = needsWeight
-        hasBase = needsBase
+        containsWeight = needsWeight
+        containsBase = needsBase
     }
     
 }

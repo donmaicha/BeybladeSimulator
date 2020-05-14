@@ -66,16 +66,16 @@ class Base: Parts {
         case Bayblade.bladeType.GT:
             if (isRightRotation) {
                 let index: Int = Int.random(in: 0 ... gtChip.count - 1)
-                baseName = (gtChip[index].hasBase) ? self.SelectDisk(target: gtDisk_right) : ""
+                baseName = (gtChip[index].containsBase) ? self.SelectDisk(target: gtDisk_right) : ""
                 baseName += gtChip[index].Name
-                baseName += (gtChip[index].hasWeight) ? self.SelectDisk(target: gtWeught) : ""
+                baseName += (gtChip[index].containsWeight) ? self.SelectDisk(target: gtWeught) : ""
             }
             else
             {
                 let index: Int = Int.random(in: 0 ... gtChip.count - 1)
-                baseName = (gtChip[index].hasBase) ? self.SelectDisk(target: gtDisk_left) : ""
+                baseName = (gtChip[index].containsBase) ? self.SelectDisk(target: gtDisk_left) : ""
                 baseName += gtChip[index].Name
-                baseName += (gtChip[index].hasWeight) ? self.SelectDisk(target: gtWeught) : ""
+                baseName += (gtChip[index].containsWeight) ? self.SelectDisk(target: gtWeught) : ""
             }
             break
         case Bayblade.bladeType.SPARK_KING:

@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
     @IBAction func LotteryBayblade(_ sender: Any) {
         let bay = Bayblade()
-        diskTextBox.text = bay.base?.name
+        diskTextBox.text = bay.layer?.name
         var weightText = bay.disk?.name
         if ((bay.disk?.isCore) == true) {
             weightText =  weightText! + " + " + bay.frame!.name

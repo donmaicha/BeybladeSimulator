@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5822DD9A246595CC002A1BA7 /* Chip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5822DD99246595CC002A1BA7 /* Chip.swift */; };
 		5822DD9C246AEABF002A1BA7 /* GtChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5822DD9B246AEABF002A1BA7 /* GtChip.swift */; };
+		5822DD9E247040C6002A1BA7 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5822DD9D247040C6002A1BA7 /* Layer.swift */; };
 		58868343243E0112000C7DC6 /* Bayblade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58868342243E0112000C7DC6 /* Bayblade.swift */; };
 		58868345243E031E000C7DC6 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58868344243E031E000C7DC6 /* Base.swift */; };
 		58868347243E0380000C7DC6 /* Parts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58868346243E0380000C7DC6 /* Parts.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		5822DD99246595CC002A1BA7 /* Chip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip.swift; sourceTree = "<group>"; };
 		5822DD9B246AEABF002A1BA7 /* GtChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GtChip.swift; sourceTree = "<group>"; };
+		5822DD9D247040C6002A1BA7 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
 		58868342243E0112000C7DC6 /* Bayblade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayblade.swift; sourceTree = "<group>"; };
 		58868344243E031E000C7DC6 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		58868346243E0380000C7DC6 /* Parts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parts.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				5822DD99246595CC002A1BA7 /* Chip.swift */,
 				5822DD9B246AEABF002A1BA7 /* GtChip.swift */,
 				58868344243E031E000C7DC6 /* Base.swift */,
+				5822DD9D247040C6002A1BA7 /* Layer.swift */,
 				5891E4F0243E075E00B6A3D3 /* Driver.swift */,
 				58F86F85243DFF48001BA50E /* BeybladeSimulator */,
 				58F86F84243DFF48001BA50E /* Products */,
@@ -165,6 +168,7 @@
 				5891E4F5244C89F800B6A3D3 /* Frame.swift in Sources */,
 				5822DD9C246AEABF002A1BA7 /* GtChip.swift in Sources */,
 				58F86F8B243DFF48001BA50E /* ViewController.swift in Sources */,
+				5822DD9E247040C6002A1BA7 /* Layer.swift in Sources */,
 				5891E4F1243E075E00B6A3D3 /* Driver.swift in Sources */,
 				5822DD9A246595CC002A1BA7 /* Chip.swift in Sources */,
 				58868343243E0112000C7DC6 /* Bayblade.swift in Sources */,

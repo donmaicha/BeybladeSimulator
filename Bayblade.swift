@@ -10,6 +10,7 @@ import Foundation
 
 class Bayblade {
     var base:Base? = nil
+    var layer:Layer? = nil
     var disk:Disk? = nil
     var frame:Frame? = nil
     var driver:Driver? = nil
@@ -27,7 +28,8 @@ class Bayblade {
         type = selectBladeType()
         
         // 各パーツを選択する
-        base = Base(type: type)
+//        base = Base(type: type)
+        layer = Layer(type: type)
         disk = Disk(type: type)
         frame = Frame(type: type)
         driver = Driver(type: type)

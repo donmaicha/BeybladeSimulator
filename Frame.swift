@@ -9,7 +9,7 @@
 import Foundation
 
 class Frame:Parts {
-    var frames:[String] = ["エキスパンド", "ダガー", "ウォール", "バンプ"]
+    var frames:[String] = ["エキスパンド", "ダガー", "ウォール", "バンプ", "クロス", "リーチ"]
     
     override init(type: Bayblade.bladeType) {
         super.init(type: type)

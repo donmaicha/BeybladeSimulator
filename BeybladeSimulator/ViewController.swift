@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var layerTextBox: UITextField!
     @IBOutlet weak var diskTextBox: UITextField!
-    @IBOutlet weak var weightTextBox: UITextField!
     @IBOutlet weak var driverTextBox: UITextField!
     
     
@@ -22,12 +22,32 @@ class ViewController: UIViewController {
 
     @IBAction func LotteryBayblade(_ sender: Any) {
         let bay = Bayblade()
-        diskTextBox.text = bay.layer?.name
+        layerTextBox.text = bay.layer?.name
         var weightText = bay.disk?.name
         if ((bay.disk?.isCore) == true) {
             weightText =  weightText! + " + " + bay.frame!.name
         }
-        weightTextBox.text = weightText
+        diskTextBox.text = weightText
+        driverTextBox.text = bay.driver?.name
+    }
+    @IBAction func LotteryLayerOnly(_ sender: Any) {
+        let bay = Bayblade()
+        layerTextBox.text = bay.layer?.name
+        var weightText = bay.disk?.name
+        if ((bay.disk?.isCore) == true) {
+            weightText =  weightText! + " + " + bay.frame!.name
+        }
+    }
+    @IBAction func LotteryDiskOnly(_ sender: Any) {
+        let bay = Bayblade()
+        var diskText = bay.disk?.name
+        if ((bay.disk?.isCore) == true) {
+            diskText =  diskText! + " + " + bay.frame!.name
+        }
+        diskTextBox.text = diskText
+    }
+    @IBAction func LotteryDriverOnly(_ sender: Any) {
+        let bay = Bayblade()
         driverTextBox.text = bay.driver?.name
     }
     

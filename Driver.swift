@@ -11,7 +11,7 @@ import Foundation
 class Driver: Parts {
     var drivers:[String] = [
         "Ul'", "X'", "Zt'", "U'", "Xc", "R", "Hy", "Tr", "Ig'", "Br", "Dm'", "P", "Zn", "Ev'", "Om", "Ω", "Qc'", "Mr'",
-        "Kp'", "S", "Un"
+        "Kp'", "S", "Un", "G", "Xt+", "Ym", "P", "Z'", "Nt", "Pr", "Jl'", "Qc'"
     ]
     
     override init(type: Bayblade.bladeType) {

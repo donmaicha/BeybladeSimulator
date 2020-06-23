@@ -9,7 +9,7 @@
 import Foundation
 
 class Disk:Parts {
-    var disks:[String] = ["OO", "0", "VG", "WH", "7", "Bl", "Hr"]
+    var disks:[String] = ["OO", "0", "VG", "WH", "7", "Bl", "Hr", "Ar", "Ω", "Rt", "10"]
     var isCore = false
     
     override init(type: Bayblade.bladeType) {

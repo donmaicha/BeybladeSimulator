@@ -23,28 +23,28 @@ class ViewController: UIViewController {
     @IBAction func LotteryBayblade(_ sender: Any) {
         let bay = Bayblade()
         layerTextBox.text = bay.layer?.name
-        var weightText = bay.disk?.name
+        var diskName = bay.disk?.name
         if ((bay.disk?.isCore) == true) {
-            weightText =  weightText! + " + " + bay.frame!.name
+            diskName =  diskName! + " + " + bay.frame!.name
         }
-        diskTextBox.text = weightText
+        diskTextBox.text = diskName
         driverTextBox.text = bay.driver?.name
     }
     @IBAction func LotteryLayerOnly(_ sender: Any) {
         let bay = Bayblade()
         layerTextBox.text = bay.layer?.name
-        var weightText = bay.disk?.name
+        var diskName = bay.disk?.name
         if ((bay.disk?.isCore) == true) {
-            weightText =  weightText! + " + " + bay.frame!.name
+            diskName =  diskName! + " + " + bay.frame!.name
         }
     }
     @IBAction func LotteryDiskOnly(_ sender: Any) {
         let bay = Bayblade()
-        var diskText = bay.disk?.name
+        var diskName = bay.disk?.name
         if ((bay.disk?.isCore) == true) {
-            diskText =  diskText! + " + " + bay.frame!.name
+            diskName =  diskName! + " + " + bay.frame!.name
         }
-        diskTextBox.text = diskText
+        diskTextBox.text = diskName
     }
     @IBAction func LotteryDriverOnly(_ sender: Any) {
         let bay = Bayblade()

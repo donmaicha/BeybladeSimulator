@@ -27,23 +27,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ドライバー" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aP1-bH-D3o">
-                                <rect key="frame" x="20" y="158" width="87" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ドライバ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aP1-bH-D3o">
+                                <rect key="frame" x="20" y="158" width="70" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hHj-p8-cXN">
+                            <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hHj-p8-cXN">
                                 <rect key="frame" x="115.5" y="110" width="211.5" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ClA-tc-DSo">
-                                <rect key="frame" x="115" y="151" width="211" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ClA-tc-DSo">
+                                <rect key="frame" x="116" y="151" width="211" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hVy-xl-bfv">
+                            <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hVy-xl-bfv">
                                 <rect key="frame" x="115.5" y="68" width="210.5" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -121,7 +121,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Zgq-Ze-HkD" secondAttribute="bottom" constant="87" id="pY2-4z-pGd"/>
                             <constraint firstItem="Mst-V5-ijV" firstAttribute="leading" secondItem="hVy-xl-bfv" secondAttribute="trailing" constant="9" id="q3v-P9-a6G"/>
                             <constraint firstItem="Q77-pH-HHK" firstAttribute="top" secondItem="Mst-V5-ijV" secondAttribute="bottom" constant="10" id="qP3-Ht-OT2"/>
-                            <constraint firstItem="ClA-tc-DSo" firstAttribute="leading" secondItem="aP1-bH-D3o" secondAttribute="trailing" constant="8" id="qie-d7-EKV"/>
+                            <constraint firstItem="ClA-tc-DSo" firstAttribute="leading" secondItem="aP1-bH-D3o" secondAttribute="trailing" constant="18" id="qie-d7-EKV"/>
                             <constraint firstItem="4Zz-I1-ycp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="qss-Sf-a6I"/>
                             <constraint firstItem="hHj-p8-cXN" firstAttribute="top" secondItem="hVy-xl-bfv" secondAttribute="bottom" constant="8" id="ueU-Le-Qkp"/>
                             <constraint firstItem="aP1-bH-D3o" firstAttribute="top" secondItem="ihs-F9-2CC" secondAttribute="bottom" constant="20" id="wCP-xT-Jvl"/>
